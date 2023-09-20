@@ -1,8 +1,8 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 336px;
-    max-height: 336px;
+    max-width: 416px;
+    max-height: 416px;
     border: 1px solid black;
     border-left: 0px;
     border-bottom: 0px;

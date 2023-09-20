@@ -8,9 +8,18 @@ function createDiv() {
         newDiv.style.borderWidth = "1px"
         newDiv.style.borderTop = "0px"
         newDiv.style.borderRight = "0px"
-        newDiv.style.height = "20px"
-        newDiv.style.width = "20px"
+        newDiv.style.height = "25px"
+        newDiv.style.width = "25px"
+
+        newDiv.addEventListener("mouseover", () => {
+            newDiv.style.backgroundColor = "red"
+        })
+
         container.appendChild(newDiv)
     }
+    
 }
+
+
+
 createDiv()
