@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 336px;
+    max-height: 336px;
+    border: 1px solid black;
+    border-left: 0px;
+    border-bottom: 0px;
+}
