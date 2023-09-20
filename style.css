@@ -14,3 +14,8 @@ body {
     border-left: 0px;
     border-bottom: 0px;
 }
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
